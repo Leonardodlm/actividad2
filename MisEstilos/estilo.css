@@ -1,0 +1,59 @@
+.lista1{
+    list-style-type: square;
+}
+
+.lista2{
+    list-style-type: lower-roman;
+}
+
+.lista3{
+    list-style-type: decimal-leading-zero;
+}
+
+.menu{
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+    width: 180px;
+    border: 1px solid #7C7C7C; 
+    border-bottom: none;
+    background: #F4F4F4; 
+    border-bottom: 1px solid #7C7C7C; 
+    border-top: 1px solid #FFF;
+    color: #333; 
+    display: block; 
+    padding: .2em 0 .2em .5em; 
+    text-decoration: none;
+}
+
+.menu2{
+    background: #F4F4F4; 
+    border: 1px solid #7C7C7C; 
+    list-style: none; 
+    margin: 0; 
+    padding: 0;
+    overflow: hidden;
+}
+.menu2 {
+    background: #F4F4F4;
+    border: 1px solid #7C7C7C;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+.menu2 li {
+    float: left;
+    width: 20%;
+  }
+
+.menu2 li a {
+    border-left: 1px solid #FFF;
+    border-right: 1px solid #7C7C7C;
+    color: #333;
+    display: block;
+    padding: .3em;
+    text-decoration: none;
+  }
+  
